@@ -1,5 +1,5 @@
 import csv
-with open("salary.csv",'r',newline='')as f:
+with open("salary.csv",'w',newline='')as f:
      data=csv.writer(f)
      header=['sid','sname','salary']
      record=[[1,'om',4000],
